@@ -3,7 +3,7 @@ from autodistill.detection import CaptionOntology
 from autodistill_grounded_sam import GroundedSAM
 import supervision as sv
 
-from autodistill.core.custom_detection_model import CustomDetectionModel
+from autodistill.core.composed_detection_model import ComposedDetectionModel
 import cv2
 
 classes = ["McDonalds", "Burger King"]
