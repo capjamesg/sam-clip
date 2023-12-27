@@ -9,7 +9,7 @@ import cv2
 classes = ["McDonalds", "Burger King"]
 
 
-SAMCLIP = CustomDetectionModel(
+SAMCLIP = ComposedDetectionModel(
     detection_model=GroundedSAM(
         CaptionOntology({"logo": "logo"})
     ),
